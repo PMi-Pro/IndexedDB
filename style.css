@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form * {
+  width: 50%;
+  margin-top: 2px;
+}
+
+.update {
+  display: none;
+  background-color: gray;
+}
+
+.up,
+.de {
+  color: white;
+  cursor: pointer;
+}
+
+.thBackGround {
+  background-color: #004b6f;
+}
+
+td,
+th {
+  border: 2px solid black;
+  color: darkred;
+  text-shadow: 0 0 1px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+table {
+  width: 100%;
+}
