@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
 }
@@ -24,6 +25,15 @@ form * {
 
 input {
   font-size: 20px;
+  font-family: arial;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  height: 30px;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .divTable {
@@ -40,7 +50,7 @@ th {
   background-color: pink;
 }
 
-.submit {
+.addData {
   font-size: 20px;
   background-color: lawngreen;
 }
@@ -51,12 +61,21 @@ th {
   background-color: pink;
 }
 
-td,th {
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: arial;
+  height: 30px;
   white-space: pre-wrap;
   word-break: break-all;
-  border: 1px solid black;
   color: black;
   text-align: center;
+}
+
+td:active {
+  background-color: green;
 }
 
 h2 {
